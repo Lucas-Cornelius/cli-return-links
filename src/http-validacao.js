@@ -1,5 +1,3 @@
-import chalk from 'chalk';
-
 function extraiLinks(array) {
     return array.map((objArray) => Object.values(objArray).join());
 }
@@ -35,5 +33,3 @@ export default async function listaValidada(listaDeLinks) {
         status: status[indice]
     }))
 }
-
-// [gatinho salsicha](http://gatinhosalsicha.com.br/)
